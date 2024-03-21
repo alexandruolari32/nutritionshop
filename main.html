@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<title>Magazin De Nutritie Sportiva</title>
+<style type="text/css">
+a {
+  color: #fff;
+  text-decoration: none;
+}
+html {
+  background: #FFF8CC;
+  min-height: 100%;
+  font-family: Helvetica;
+  display: flex;
+  flex-direction: column;
+}
+body {
+  margin: 0;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+}
+h1, h2, p {
+  color: #006064;
+}
+.header {
+  width: 100%;
+  min-width: 460px;
+  max-width: 960px;
+  margin: 0 auto 30px;
+  padding: 30px 0 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.logo {
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  margin: 5px 0 0 5px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex: none;
+  align-items: center;
+  background: #839FFF;
+  width: 130px;
+  height: 50px;
+}
+.nav {
+  margin: -5px 0 0 -5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav-item {
+  background: #BDC7FF;
+  width: 130px;
+  height: 50px;
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  margin: 5px 0 0 5px;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  width: 100%;
+  min-width: 460px;
+  max-width: 960px;
+  margin: auto;
+  flex: auto;
+  box-sizing: border-box;
+}
+.box {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin: 0 0 40px -50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.box-base {
+  margin-left: 50px;
+  flex: 1 0 430px;
+}
+.box-side {
+  margin-left: 50px;
+  font: none;
+}
+.box-img {
+  max-width: 100%;
+  height: auto;
+}
+.content {
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.banners {
+  flex: 1 1 200px;
+}
+.banner {
+  background: #FFDB89;
+  width: 100%;
+  min-width: 300px;
+  min-height: 100px;
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 0 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.posts {
+  margin: 0 0 30px 30px;
+  flex: 1 1 200px;
+}
+.comments {
+  margin: 0 0 30px 30px;
+  flex: 1 1 200px;
+}
+.comment {
+  display: flex;
+}
+.comment-side {
+  padding-right: 20px;
+  flex: none;
+}
+.comment-base {
+  flex: auto;
+}
+.comment-avatar {
+  background: #FFA985;
+  width: 50px;
+  height: 50px;
+}
+.footer {
+  background: #FF3366;
+  width: 100%;
+  max-width: 960px;
+  min-width: 460px;
+  color: #fff;
+  margin: auto;
+  padding: 15px;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 800px) {
+  .banners {
+    margin-left: -30px;
+    display: flex;
+    flex-basis: 100%;
+  }
+  .banner {
+    margin-left: 30px;
+  }
+  .posts {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .content {
+    display: block;
+  }
+  .banners {
+    margin: 0;
+    display: block;
+  }
+  .banner {
+    margin-left: 0;
+  }
+  .posts {
+    margin: 0;
+  }
+}
+</style>
+</head>
+<body>
+<header class="header">
+  <a class="logo">Menu</a>
+  <nav class="nav">
+    <a href="#catalog"  class="nav-item">Catalog
+    <a href="#proteine" class="nav-item">Proteine</a>
+    <a href="#creatina" class="nav-item">Creatina</a>
+    <a href="#steroizi" class="nav-item">Steroizi</a>
+  </nav>
+</header>
+<main class="main">
+  <div class="box">
+    <div class="box-base">
+      <h1>Magazin De Nutritie Sportiva</h1>
+      <p>Bine ati venit in magazinul nostru online de nutritie sportiva! Aici veti gasi o gama larga de produse pentru antrenamentul dumneavoastra si pentru atingerea obiectivelor dumneavoastra de fitness.</p>
+    </div>
+    <div class="box-side">
+      <div class="sqr"></div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="banners">
+    </div>
+    <div class="pos" id="proteine">
+      <div class="post">
+        <h2 align="left">Proteine</h2>
+        <p>Proteinele sunt fundamentale pentru constructia si recuperarea musculara. Descoperiti cele mai bune marci de suplimente proteice pentru a va maximiza rezultatele.</p>
+      </div>
+    </div>
+    <div class="pos" id="creatina">
+      <div class="post">
+        <h2>Creatina</h2>
+        <p>Creatina este larg considerata ca fiind unul dintre cele mai eficiente suplimente disponibile. A fost si intens cercetata ?i beneficiile sale raspandite au fost dovedite stiintific in studii multiple.
+Daca doresti sa pui masa musculara, sa atingi noi recorduri personale la exercitiile tale, sa sprintezi mai repede, sa te recuperezi mai bine sau chiar sa iti imbunatatesti memoria de scurta durata, merita sa iei an considerare suplimentarea cu creatina.
+	<did class="pos" id="steroizi">
+	<did class="post">
+	<h2>Steroizi</h2>
+	<p>Un steroid este un tip de lipida caracterizata printr-un schelet de atomi de carbon cu patru inele unite. Diferiti steroizi variaza prin gruparile functionale atasate acestor inele. Sute de steroizi distincti au fost identificati la plante si animale. Rolul cel mai important in sistemele vii este cel de hormoni.</p>
+<div class="banners">
+  <div class="banner">
+    <h2>Oferta Speciala</h2>
+    <p>Descoperiti ofertele noastre speciale pentru produsele de nutritie sportiva! Reduceri semnificative si pachete promotionale pentru a va ajuta sa atingeti obiectivele de fitness.</p>
+  </div>
+  <div class="banner">
+    <h2>Reduceri Imense</h2>
+    <p>Alegeti din gama noastra variata de produse la preturi reduse! Beneficiati de reduceri de pana la 50% la proteine, creatina, steroizi ?i multe altele.</p>
+  </div>
+  <div class="banner">
+    <h2>Promotii Active</h2>
+    <p>Participati la promotiile noastre active si obtineti cadouri si bonusuri la achizitii! Fie ca aveti nevoie de suplimente pentru crestere musculara sau pentru energie, avem oferte pentru toate nevoile dumneavoastra.</p>
+  </div>
+</div>
+<iframe width="1000" height="600" src="https://www.youtube.com/embed/6FTCk36GlyQ?si=fugsoT0vt54L8V9X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<section id="catalog">
+<h1>Catalogul de produse</h1>
+<img width="1000" height="600" src="https://belok.ua/blog/wp-content/uploads/2020/11/proteins.jpg" alt="Imagine 1" >
